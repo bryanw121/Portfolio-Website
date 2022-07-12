@@ -90,14 +90,14 @@ body{
 }
 
 .carousel-control-next-icon:after {
-    content: url("../images/arrow-right-solid.svg");
+    content: url("./images/arrow-right-solid.svg");
     opacity: 40%;
     
 
 }
 
 .carousel-control-prev-icon:after {
-    content: url("../images/arrow-left-solid.svg");
+    content: url("./images/arrow-left-solid.svg");
     opacity: 40%
 
   }
