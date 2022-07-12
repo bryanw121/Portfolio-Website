@@ -1,0 +1,251 @@
+/* Sitewide */
+a{
+    font-family: "Montserrat", sans-serif;
+}
+
+body{
+    text-align: center;
+}
+
+
+/* background */
+body{
+    /* background-image: url("../images/background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%  100%; */
+    background-color: #0b2e75;
+    background-image: url("https://www.transparenttextures.com/patterns/asfalt-light.png");
+}
+
+/* Navbar */
+.ml-auto{
+    margin-left: auto!important;
+}
+
+.navbar{
+    margin-bottom: 5rem;
+}
+
+.navbar-brand{
+    padding: .5rem 1rem;
+    
+}
+.nav-link{
+    padding: 1rem;
+
+}
+
+/* ul.navbar-nav{
+    margin-left: 72%;
+} */
+
+/* profile section */
+.about-me{
+    margin-top: 2rem;
+    padding: 3rem;
+}
+.about-me h1{
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.about-me p{
+    margin-top: 2rem;
+    padding: 1rem auto;
+    line-height: 2rem;
+
+}
+
+
+
+#home{
+    color: white;
+    padding-bottom: 15rem;
+    padding-top: 5rem;
+}
+
+#profile-image{
+    border-radius: 100%;
+    width: 25rem;
+    position: relative;
+}
+
+/* projects */
+#projects{
+    background-color: #fff7f7;
+    padding: 4rem 10rem 5rem 10rem;
+}
+
+#projects a{
+    text-decoration: none;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 50px;
+    width: 50px;
+    outline: black;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    background-image: none;
+}
+
+.carousel-control-next-icon:after {
+    content: url("../images/arrow-right-solid.svg");
+    opacity: 40%;
+    
+
+}
+
+.carousel-control-prev-icon:after {
+    content: url("../images/arrow-left-solid.svg");
+    opacity: 40%
+
+  }
+
+@media screen and (max-width: 700px) {
+
+   
+
+    #home{
+        margin-bottom: 0;
+        padding-bottom: 3rem;
+    }
+
+    #projects{
+    padding: 5rem 2rem 5rem 2rem;
+}
+}
+
+#projects h1{
+    margin-bottom: 3rem;
+}
+
+.carousel-description{ 
+    margin-top: 3rem;
+    line-height: 1.5;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.carousel-description h5{
+    margin-bottom: 1rem;
+}
+
+.carousel-image{
+    border-radius: 20px;
+}
+
+/* hobbies */
+#hobbies {
+    margin-top: 4rem;
+    margin-left: auto;
+    margin-right: auto;    
+    margin-bottom: 5rem;
+    color: white;
+}
+
+#hobbies h1{
+    margin-bottom: 5rem;
+}
+
+#hobby-image-2{
+    width: 20%;
+    margin-left: 0rem;
+    float: right; 
+
+}
+
+.hobby{
+    line-height: 2;
+    margin-left: 8rem;
+    margin-right: 8rem;
+
+}
+
+.hobby-1, .hobby-3{
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.hobby-2{
+    text-align: left;
+    width: 80%;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+    margin-left: auto;
+    margin-right: 10rem;
+    display: block;
+    
+}
+
+.hobby-text-1, .hobby-text-2, .hobby-text-3 {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hobby-text-1, .hobby-text-3 {
+    margin-left: 1rem;
+}
+
+.hobby-text-2{
+    width: 70%;
+    margin-left: auto;
+    padding-top: 3rem;
+}
+
+
+
+@media screen and (max-width: 700px) {
+    .hobby-1, .hobby-2, .hobby-3{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+        width: 100%;
+
+    }
+
+    .hobby-text-1, .hobby-text-2, .hobby-text-3 {
+        margin-top: auto;
+        margin-bottom: auto;
+        line-height: 2;
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-top: 3rem;
+        width: 100%;
+        
+    }
+    #hobby-image-1, #hobby-image-2, #hobby-image-3 {
+        width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        display: inline;
+        float: none;
+    }
+
+}
+
+/* contact */
+#contact{
+    background-color: #fff7f7;
+    padding: 4rem 10rem 5rem 10rem;
+
+}
+
+#contact ul{
+    list-style-type: none;
+    margin-top: 3rem;
+    padding: 0;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
